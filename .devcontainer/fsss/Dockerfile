@@ -66,11 +66,4 @@ RUN pip3 install --no-cache-dir casadi
 RUN pip3 install -e /app/acados/interfaces/acados_template
 # Add further installations here as they are cached
 RUN pip3 install --no-cache-dir future
-# Add packages for SIPPY
-RUN pip3 install --no-cache-dir control
-RUN pip3 install scikit-build
-RUN pip3 install setuptools_scm
-RUN pip install -v slycot
 
-# Add packages for Machine Learning tutorial
-RUN pip3 install --no-cache-dir keras
