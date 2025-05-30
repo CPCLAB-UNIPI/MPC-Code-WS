@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+*.pyo.*
+*.pyd.*
+*.pycache__/
+*.cover
+.coverage
+*.py,cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.log
+
