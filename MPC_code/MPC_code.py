@@ -895,7 +895,7 @@ if estimating is False:
     Ypopt = vertcat(*Ypopt) 
 
 ## Defining time for plotting
-tsim = plt.linspace(0, (Nsim-1)*h, Nsim )
+tsim = np.linspace(0, (Nsim-1)*h, Nsim )
 
 plt.close("all")
 
