@@ -196,3 +196,5 @@ Rss = # Control matrix
 # 4.4) Dynamic optimization : objective function 
 Q = #
 S = #np.array([[0.1, 0.0], [0.0, 0.1]])
+
+pathfigure = 'MPC_Images/'
