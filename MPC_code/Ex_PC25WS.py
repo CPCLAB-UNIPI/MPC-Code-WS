@@ -34,7 +34,7 @@ d = SX.sym("d", )  # disturbance
 ### 2) Process and Model construction 
 
 # 2.1) Process Parameters
-tau = 3
+tau = 4
 CA0 = 2.0      # Feed concentration of A (kmol/m3)
 T0 = 298.0     # Feed temperature (K)
 Tm = 298.0      # Reference temperature (K)
